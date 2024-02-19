@@ -16,15 +16,13 @@ public class Main {
         while(count < 12) {
             Random r = new Random();
             int randomNumber= r.nextInt(0, games.length);
-            if (alreadyChosen[randomNumber] == true) {
+            if (alreadyChosen[randomNumber]) {
                 randomNumber = r.nextInt(0,games.length);
-            } else if(alreadyChosen[randomNumber] == false) {
+            } else if(!alreadyChosen[randomNumber]) {
                 alreadyChosen[randomNumber] = true;
                 System.out.println(games[randomNumber]);
                 count += 1;
             }
-
-        }
-
         }
     }
+}
