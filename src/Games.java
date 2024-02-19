@@ -1,10 +1,10 @@
 public class Games {
-    private String title;
-    private double cost;
-    private int playerCount;
+    protected String title;
+    protected double cost;
+    protected int playerCount;
 
-    private double time;
-    private double rating;
+    protected double time;
+    protected double rating;
 
     public Games(String title, double cost, int playerCount, double time, double rating) {
         this.title = title;
@@ -14,20 +14,20 @@ public class Games {
         this.rating = rating;
     }
 
-    public String getTitle() {
+    protected String getTitle() {
         return title;
     }
 
-    public double getCost() {
+    protected double getCost() {
         return cost;
     }
-    public int getPlayerCount() {
+    protected int getPlayerCount() {
         return playerCount;
     }
-    public double getTime() {
+    protected double getTime() {
         return time;
     }
-    public double getRating() {
+    protected double getRating() {
         return rating;
     }
 
