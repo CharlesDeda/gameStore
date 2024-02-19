@@ -34,9 +34,7 @@ public class Games {
     public String setTitle(String title) {
         return this.title = title;
     }
-    public String setGenre(String genre) {
-        return this.genre = genre;
-    }
+
     public double setCost(double cost) {
         return this.cost = cost;
     }
