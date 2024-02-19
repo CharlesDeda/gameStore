@@ -22,7 +22,6 @@ public class Main {
                 alreadyChosen[randomNumber] = true;
                 System.out.println(games[randomNumber]);
                 count += 1;
-                //asdf
             }
 
         }
