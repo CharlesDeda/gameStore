@@ -1,10 +1,10 @@
 public class digitalGame extends Games {
-    protected String genre;
+    protected String digitalType;
 
-    public digitalGame(String title, double cost, int playerCount, double time, double rating, String genre) {
+    public digitalGame(String title, double cost, int playerCount, double time, double rating, String physicalType) {
         super(title, cost, playerCount, time, rating);
-        this.genre = genre;
+        this.digitalType = digitalType;
     }
-    private String getGenre() {return genre;}
-    public String setGenre(String genre) {return this.genre = genre;}
+    private String getDigitalType() {return digitalType;}
+    public String setDigitalType(String digitalType) {return this.digitalType = digitalType;}
 }

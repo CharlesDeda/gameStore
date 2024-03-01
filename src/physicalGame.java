@@ -1,9 +1,9 @@
 public class physicalGame extends Games {
-    protected String genre;
-    public physicalGame(String title, double cost, int playerCount, double time, double rating, String genre) {
+    protected String physicalType;
+    public physicalGame(String title, double cost, int playerCount, double time, double rating, String physicalType) {
         super(title, cost, playerCount, time, rating);
-        this.genre = genre;
+        this.physicalType = physicalType;
     }
-    private String getGenre() {return genre;}
-    public String setGenre(String genre) {return this.genre = genre;}
+    private String getPhysicalType() {return physicalType;}
+    public String setPhysicalType(String physicalType) {return this.physicalType = physicalType;}
 }
