@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c58c718-2df5-4071-a1e0-a015ded4ecd8" name="Changes" comment="wip">
-      <change beforePath="$PROJECT_DIR$/src/Everdell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Everdell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PoetryForNeanderthals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PoetryForNeanderthals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorldOfWarcraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorldOfWarcraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/physicalGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physicalGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;gamesBranch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/nickdeda/Developer/Java/gameStore/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.RandomGame.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "gamesBranch",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/nickdeda/Developer/Java/gameStore/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
