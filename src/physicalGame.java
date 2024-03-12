@@ -12,4 +12,11 @@ public class physicalGame extends Games {
 
     public void setPlayerCount(int playerCount) {this.playerCount = playerCount;}
     public void setPhysicalType(String physicalType) {this.physicalType = physicalType;}
+    public String toString() {
+        return super.toString() + String.format("%-15s %-10d",
+                getPhysicalType(),
+                getplayerCount()
+        );
+
+    }
 }

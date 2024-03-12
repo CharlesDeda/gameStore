@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c58c718-2df5-4071-a1e0-a015ded4ecd8" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/src/RandomGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Everdell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Everdell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PoetryForNeanderthals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PoetryForNeanderthals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorldOfWarcraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorldOfWarcraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digitalGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/digitalGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/physicalGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physicalGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

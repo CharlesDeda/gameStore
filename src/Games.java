@@ -39,10 +39,12 @@ public class Games {
     public double setRating(double rating) {
         return this.rating = rating;
     }
-
+    public double totalCost(int numCopies, double price) {
+        return numCopies * price;
+    }
     @Override
     public String toString() {
-        return String.format("%-20s %-10.2f %-10.1f %-10.2f",
+        return String.format("%-25s %-10.2f %-10.1f %-10.2f",
                 getTitle(),
                 getCost(),
                 getTime(),
