@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         digitalGame[] digitalGames = new digitalGame[] {new WorldOfWarcraft()};
-
+\
         physicalGame[] physicalGames = new physicalGame[] {new Everdell(), new PoetryForNeanderthals()}
 
         System.out.println("What kind of game do you want to play?");
