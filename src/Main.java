@@ -2,16 +2,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         digitalGame[] digitalGames = new digitalGame[] {new WorldOfWarcraft()};
-\
         physicalGame[] physicalGames = new physicalGame[] {new Everdell(), new PoetryForNeanderthals()}
 
         System.out.println("What kind of game do you want to play?");
         Scanner input = new Scanner();
-        String answer = input.nextLine();
-        if(answer == "Digital Game") {
-            System.out.println()
+        String gameType = input.nextLine();
+        if(gameType == "Digital Game") {
+            System.out.println();
         }
+        System.out.println("Which game do you want to play?");
+        String selectedGame = input.nextLine();
+
+        System.out.println("How many copies would you like to purchase?");
+        int copies = input.nextInt();
 
 
 //        WorldOfWarcraft w1 = new WorldOfWarcraft("World of Warcraft", 50, 2707,

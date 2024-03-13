@@ -4,6 +4,7 @@ public class Everdell extends physicalGame {
         super(title, cost, time, rating, physicalType, playerCount);
         this.worker = worker;
     }
+    //Getters and Setters
     private String getWorker() {return worker;}
     public void setWorker(String worker) {this.worker = worker;}
     public String toString() {
