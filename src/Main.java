@@ -29,6 +29,6 @@ public class Main {
 //        BetrayalAtHouseOnTheHill b1 = new BetrayalAtHouseOnTheHill("Betrayal at House on The Hill",
 //                40.00, "30 minutes to an hour", 9, "Boardgame", 6, "Player 1");
 //        Fluxx f1 = new Fluxx("Fluxx", 20.00, "5 to 30 minutes", 7, "Cardgame", 6, "Cthulu Fluxx");
-//        Loonacy l1 = new Loonacy("Loonacy", 20.00, "5 to 10 minutes", 10, "Cardgame", 5, Boolean.TRUE);
+//        Loonacy l1 = new Loonacy("Loonacy", 20.00, "5 to 10 minutes", 10, "Cardgame", 5, true);
     }
 }
