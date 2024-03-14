@@ -20,27 +20,34 @@ public class Main {
         digitalGame[] digitalGames = new digitalGame[] {w1,t1, m1, pm1};
         physicalGame[] physicalGames = new physicalGame[] {f1,e1,p1,b1,l1,s1,wh1,ect1};
 
-        System.out.println("Digital Games");
-        for(int i = 0; i<4; i++) {
-            System.out.println(digitalGames[i]);
-        }
-        System.out.println("Physical Games");
-        for(int i = 0; i<8; i++) {
-            System.out.println(physicalGames[i]);
-        }
-
-//        System.out.println("What kind of game do you want to play?");
-//        Scanner input = new Scanner();
-//        String gameType = input.nextLine();
-//        if(gameType == "Digital Game") {
-//            System.out.println();
+//        System.out.println("Digital Games");
+//        for(int i = 0; i<4; i++) {
+//            System.out.println(digitalGames[i]);
 //        }
-//        System.out.println("Which game do you want to play?");
-//        String selectedGame = input.nextLine();
-//
-//        System.out.println("How many copies would you like to purchase?");
-//        int copies = input.nextInt();
+//        System.out.println("Physical Games");
+//        for(int i = 0; i<8; i++) {
+//            System.out.println(physicalGames[i]);
+//        }
 
+        System.out.println("What kind of game do you want to play? (Digital or Physical Game)");
+        Scanner input = new Scanner(System.in);
+        String gameType = input.nextLine();
+        if(gameType.equals("Digital Game")) {
+            System.out.println("Which game would you like to play?");
+            System.out.printf("%-15s %-15s %-15s %-15s %-15s", "Title", "Cost", "Players", "Average Time", "Rating\n");
+            for(int i = 0; i<4; i++) {
+                System.out.printf("%s %-15s %-15.2f %-15d %-15s %-15.2f\n", (i+1), digitalGames[i].getTitle(), digitalGames[i].getCost(), digitalGames[i].getParty(), digitalGames[i].getTime(),
+                digitalGames[i].getRating());
+            }
+        }
+        if(gameType.equals("Physical Game")) {
+            System.out.println("Which game would you like to play?");
+            System.out.printf("%-40s %-15s %-15s %-15s %-15s", "Title", "Cost", "Players", "Average Time", "Rating\n");
+            for(int i = 0; i<8; i++) {
+                System.out.printf("%s %-40s %-15.2f %-15d %-15s %-15.2f\n", (i+1), physicalGames[i].getTitle(), physicalGames[i].getCost(), physicalGames[i].getplayerCount(), physicalGames[i].getTime(),
+                        physicalGames[i].getRating());
+            }
+        }
 
 
     }

@@ -8,8 +8,8 @@ public class digitalGame extends Games {
         this.party = party;
 
     }
-    private String getDigitalType() {return digitalType;}
-    private int getParty() {return party;}
+    protected String getDigitalType() {return digitalType;}
+    protected int getParty() {return party;}
     public void setDigitalType(String digitalType) {this.digitalType = digitalType;}
     public void setParty(int party) {this.party = party;}
 

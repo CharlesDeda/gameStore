@@ -6,9 +6,9 @@ public class physicalGame extends Games {
         this.physicalType = physicalType;
         this.playerCount = playerCount;
     }
-    private String getPhysicalType() {return physicalType;}
+    protected String getPhysicalType() {return physicalType;}
 
-    private int getplayerCount() {return playerCount;}
+    protected int getplayerCount() {return playerCount;}
 
     public void setPlayerCount(int playerCount) {this.playerCount = playerCount;}
     public void setPhysicalType(String physicalType) {this.physicalType = physicalType;}
