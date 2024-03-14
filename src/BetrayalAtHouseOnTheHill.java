@@ -7,7 +7,7 @@ public class BetrayalAtHouseOnTheHill extends physicalGame {
     private String Betrayer;
 
     // the BetrayalAtHouseOnTheHill constructor using the super class constructor as well
-    public BetrayalAtHouseOnTheHill(String title, double cost, double time, double rating, String physicalType,
+    public BetrayalAtHouseOnTheHill(String title, double cost, String time, double rating, String physicalType,
                                     int playerCount, String Betrayer) {
         super(title, cost, time, rating, physicalType, playerCount);
         this.Betrayer = Betrayer;

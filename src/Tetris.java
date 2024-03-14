@@ -4,8 +4,8 @@ public class Tetris extends digitalGame {
     private String shapes;
     // The tools that you must use to battle the inevitability of life - but you will not go quietly into that dark.
 
-    public Tetris(String title, double cost, double time, double rating, String physicalType, int playerCount, String shapes) {
-        super(title, cost, time, rating, physicalType, playerCount);
+    public Tetris(String title, double cost, String time, double rating, String digitalType, int playerCount, String shapes) {
+        super(title, cost, time, rating, digitalType, playerCount);
         this.shapes = shapes;
 
     }
@@ -14,8 +14,8 @@ public class Tetris extends digitalGame {
     public void setShapes(String Shapes) {this.shapes = Shapes;}
     //String Method
     public String toString() {
-        return super.toString() + String.format("%s%s",
-                "Shapes Used: ", getShapes()
+        return super.toString() + String.format("%-10s",
+                getShapes()
         );
     }
 }

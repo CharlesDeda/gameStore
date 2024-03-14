@@ -2,7 +2,7 @@ public class digitalGame extends Games {
     protected String digitalType;
     protected int party;
 
-    public digitalGame(String title, double cost, double time, double rating, String digitalType, int party) {
+    public digitalGame(String title, double cost, String time, double rating, String digitalType, int party) {
         super(title, cost, time, rating);
         this.digitalType = digitalType;
         this.party = party;

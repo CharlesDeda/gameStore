@@ -7,7 +7,7 @@ public class Loonacy extends physicalGame {
     private Boolean FreeForAll;
 
     // the Loonacy constructor using the super class constructor as well
-    public Loonacy(String title, double cost, double time, double rating, String physicalType,
+    public Loonacy(String title, double cost, String time, double rating, String physicalType,
                    int playerCount, Boolean FreeForAll) {
         super(title, cost, time, rating, physicalType, playerCount);
         this.FreeForAll = FreeForAll;

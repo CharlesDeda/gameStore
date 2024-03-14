@@ -1,7 +1,7 @@
 public class physicalGame extends Games {
     protected String physicalType;
     protected int playerCount;
-    public physicalGame(String title, double cost, double time, double rating, String physicalType, int playerCount) {
+    public physicalGame(String title, double cost, String time, double rating, String physicalType, int playerCount) {
         super(title, cost, time, rating);
         this.physicalType = physicalType;
         this.playerCount = playerCount;

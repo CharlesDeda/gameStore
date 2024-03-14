@@ -2,10 +2,10 @@ public class Games {
     protected String title;
     protected double cost;
 
-    protected double time;
+    protected String time;
     protected double rating;
 
-    public Games(String title, double cost, double time, double rating) {
+    public Games(String title, double cost, String time, double rating) {
         this.title = title;
         this.cost = cost;
         this.time = time;
@@ -19,32 +19,32 @@ public class Games {
     protected double getCost() {
         return cost;
     }
-    protected double getTime() {
+    protected String getTime() {
         return time;
     }
     protected double getRating() {
         return rating;
     }
 
-    public String setTitle(String title) {
-        return this.title = title;
+    public void setTitle(String title) {
+         this.title = title;
     }
 
-    public double setCost(double cost) {
-        return this.cost = cost;
+    public void setCost(double cost) {
+         this.cost = cost;
     }
-    public double setTime(double time) {
-        return this.time = time;
+    public void setTime(String time) {
+         this.time = time;
     }
-    public double setRating(double rating) {
-        return this.rating = rating;
+    public void setRating(double rating) {
+         this.rating = rating;
     }
     public double totalCost(int numCopies, double price) {
         return numCopies * price;
     }
     @Override
     public String toString() {
-        return String.format("%-25s %-10.2f %-10.1f %-10.2f",
+        return String.format("%-25s $%-10.2f %-10.1s %-10.2f",
                 getTitle(),
                 getCost(),
                 getTime(),

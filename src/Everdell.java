@@ -1,6 +1,6 @@
 public class Everdell extends physicalGame {
     private String worker;
-    public Everdell(String title, double cost, double time, double rating, String physicalType, int playerCount, String worker) {
+    public Everdell(String title, double cost, String time, double rating, String physicalType, int playerCount, String worker) {
         super(title, cost, time, rating, physicalType, playerCount);
         this.worker = worker;
     }

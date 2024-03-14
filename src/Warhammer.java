@@ -2,7 +2,7 @@ public class Warhammer extends physicalGame{
     //Tabletop game with little figures
     public String minifigure;
 
-    public Warhammer(String title, double cost, double time, double rating, String physicalType, int playerCount) {
+    public Warhammer(String title, double cost, String time, double rating, String physicalType, int playerCount, String minifigure) {
         super(title, cost, time, rating, physicalType, playerCount);
         this.minifigure = minifigure;
     }

@@ -8,7 +8,7 @@ public class Fluxx extends physicalGame {
     private String version;
 
     // the fluxx constructor using the super class constructor as well
-    public Fluxx(String title, double cost, double time, double rating, String physicalType,
+    public Fluxx(String title, double cost, String time, double rating, String physicalType,
                  int playerCount, String version) {
         super(title, cost, time, rating, physicalType, playerCount);
         this.version = version;

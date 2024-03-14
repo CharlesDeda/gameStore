@@ -4,7 +4,7 @@
  */
 public class PoetryForNeanderthals extends physicalGame {
     private String card;
-    public PoetryForNeanderthals(String title, double cost, double time, double rating, String physicalType, int playerCount, String card) {
+    public PoetryForNeanderthals(String title, double cost, String time, double rating, String physicalType, int playerCount, String card) {
         super(title, cost, time, rating, physicalType, playerCount);
         this.card = card;
     }
