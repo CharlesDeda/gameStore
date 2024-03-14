@@ -22,4 +22,12 @@ public class MarioKart extends digitalGame{
     public String setKart(String kart) { return this.kart=kart;}
     public String setFormat(String format) { return this.format=format;}
     public String setTrack(String track) { return this.track= track;}
+    public String toString() {
+        return super.toString() + String.format("%-12s%-16s%-10s%-20s",
+                getCharacter(),
+                getKart(),
+                getFormat(),
+                getTrack()
+        );
+    }
 }
