@@ -20,14 +20,6 @@ public class Main {
         digitalGame[] digitalGames = new digitalGame[] {w1,t1, m1, pm1};
         physicalGame[] physicalGames = new physicalGame[] {f1,e1,p1,b1,l1,s1,wh1,ect1};
 
-//        System.out.println("Digital Games");
-//        for(int i = 0; i<4; i++) {
-//            System.out.println(digitalGames[i]);
-//        }
-//        System.out.println("Physical Games");
-//        for(int i = 0; i<8; i++) {
-//            System.out.println(physicalGames[i]);
-//        }
 
         System.out.println("What kind of game do you want to play? (Digital or Physical Game)");
         Scanner input = new Scanner(System.in);
@@ -35,26 +27,79 @@ public class Main {
 
         if(gameType.equals("Digital Game")) {
             System.out.println("Which game would you like to play?");
-            System.out.printf("%-15s %-15s %-15s %-15s %-15s", "Title", "Cost", "Players", "Average Time", "Rating");
+            System.out.printf("%s %-30s %-15s %-15s %-15s %-15s","0", "Title", "Cost", "Players", "Average Time", "Rating");
             System.out.println();
 
             for(int i = 0; i<4; i++) {
-                System.out.printf("%s %-15s %-15.2f %-15d %-15s %-15.2f\n", (i+1), digitalGames[i].getTitle(), digitalGames[i].getCost(), digitalGames[i].getParty(), digitalGames[i].getTime(),
+                System.out.printf("%s %-30s %-15.2f %-15d %-15s %-15.2f\n", (i+1), digitalGames[i].getTitle(), digitalGames[i].getCost(), digitalGames[i].getParty(), digitalGames[i].getTime(),
                 digitalGames[i].getRating());
             }
+            int gameChosen = input.nextInt();
+            if(gameChosen == 1) {
+                System.out.print(w1);
+            } else if (gameChosen == 2) {
+                System.out.print(t1);
+            } else if(gameChosen == 3) {
+                System.out.print(m1);
+            } else if(gameChosen == 4) {
+                System.out.print(pm1);
+            }
+
+            System.out.println();
+            System.out.println("Please say yes if this is the game you want to play.");
+            input.nextLine();
+            String verification = input.nextLine();
+
+            if(verification.equals("Yes")) {
+                System.out.println("How many copies do you want to purchase?");
+                int totalCopies = input.nextInt();
+                double gameCost = digitalGames[gameChosen-1].getCost();
+                double totalCost = digitalGames[gameChosen-1].totalCost(totalCopies, gameCost);
+                System.out.println("Total Cost is  $" + totalCost);
+            } else { System.out.println("Sorry, maybe we can find you something else?"); }
         }
 
         if(gameType.equals("Physical Game")) {
             System.out.println("Which game would you like to play?");
-            System.out.printf("%-40s %-15s %-15s %-15s %-15s", "Title", "Cost", "Players", "Average Time", "Rating");
+            System.out.printf("%s %-30s %-15s %-15s %-15s %-15s", "0", "Title", "Cost", "Players", "Average Time", "Rating");
             System.out.println();
 
             for(int i = 0; i<8; i++) {
-                System.out.printf("%s %-40s %-15.2f %-15d %-15s %-15.2f\n", (i+1), physicalGames[i].getTitle(), physicalGames[i].getCost(), physicalGames[i].getplayerCount(), physicalGames[i].getTime(),
+                System.out.printf("%s %-30s %-15.2f %-15d %-15s %-15.2f\n", (i+1), physicalGames[i].getTitle(), physicalGames[i].getCost(), physicalGames[i].getplayerCount(), physicalGames[i].getTime(),
                         physicalGames[i].getRating());
             }
+
+            int gameChosen = input.nextInt();
+            if(gameChosen == 1) {
+                System.out.print(f1);
+            } else if (gameChosen == 2) {
+                System.out.print(e1);
+            } else if(gameChosen == 3) {
+                System.out.print(p1);
+            } else if(gameChosen == 4) {
+                System.out.print(b1);
+            } else if(gameChosen == 5) {
+                System.out.print(l1);
+            } else if(gameChosen == 6) {
+                System.out.print(s1);
+            } else if(gameChosen == 7) {
+                System.out.print(wh1);
+            } else if(gameChosen == 8) {
+                System.out.print(ect1);
+            }
+            System.out.println();
+            System.out.println("Please say yes if this is the game you want to play.");
+            input.nextLine();
+            String verification = input.nextLine();
+
+            if(verification.equals("Yes")) {
+                System.out.println("How many copies do you want to purchase?");
+                int totalCopies = input.nextInt();
+                double gameCost = physicalGames[gameChosen-1].getCost();
+                double totalCost = physicalGames[gameChosen-1].totalCost(totalCopies, gameCost);
+                System.out.println("Total Cost is  $" + totalCost);
+            } else { System.out.println("Sorry, maybe we can find you something else?"); }
         }
-
-
+        }
     }
-}
+

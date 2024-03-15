@@ -39,7 +39,7 @@ public class Games {
     public void setRating(double rating) {
          this.rating = rating;
     }
-    public double totalCost(int numCopies, double price) {
+    public double totalCost(double numCopies, double price) {
         return numCopies * price;
     }
     @Override
