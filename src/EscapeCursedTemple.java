@@ -14,7 +14,7 @@ public class EscapeCursedTemple extends physicalGame {
     public void setSoundtrack(String Soundtrack) {this.soundtrack = Soundtrack;}
     //String Method
     public String toString() {
-        return super.toString() + String.format("%-10s",
+        return super.toString() + String.format("Soundtrack: %-10s",
                 getSoundtrack()
         );
     }

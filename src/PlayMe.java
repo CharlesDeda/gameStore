@@ -14,7 +14,7 @@ public class PlayMe extends digitalGame {
     public void setJabberWocky(boolean jabberWocky2) {this.jabberWocky = jabberWocky2;}
     //String Method
     public String toString() {
-        return super.toString() + String.format("%-10b",
+        return super.toString() + String.format("JabberWocky: %-10b",
                 getJabberWocky()
         );
     }

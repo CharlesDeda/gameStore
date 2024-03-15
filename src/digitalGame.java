@@ -14,7 +14,7 @@ public class digitalGame extends Games {
     public void setParty(int party) {this.party = party;}
 
     public String toString() {
-        return super.toString() + String.format("%-15s %-10d",
+        return super.toString() + String.format("Type: %-15s Party Size: %-10d",
                 getDigitalType(),
                 getParty()
         );

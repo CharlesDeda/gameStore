@@ -44,7 +44,7 @@ public class Games {
     }
     @Override
     public String toString() {
-        return String.format("%-25s $%-10.2f %-10.1s %-10.2f",
+        return String.format("Title: %-25s Cost: $%-10.2f Time: %-10.1s Rating: %-10.2f",
                 getTitle(),
                 getCost(),
                 getTime(),

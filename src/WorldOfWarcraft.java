@@ -19,7 +19,7 @@ public class WorldOfWarcraft extends digitalGame {
     public void setWowClass(String wowClass) {this.wowClass = wowClass;}
 
     public String toString() {
-        return super.toString() + String.format("%-10s %-10s",
+        return super.toString() + String.format("Race: %-10s Class: %-10s",
                 getRace(),
                 getWowClass()
         );

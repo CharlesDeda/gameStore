@@ -18,7 +18,7 @@ public class Loonacy extends physicalGame {
 
     // toString method
     public String toString() {
-        return super.toString() + String.format("%-10b",
+        return super.toString() + String.format("Free For All: %-10b",
                 getFreeForAll());
     }
 }

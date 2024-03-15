@@ -19,7 +19,7 @@ public class MarioKart extends digitalGame{
     public String setKart(String kart) { return this.kart=kart;}
     public String setTrack(String track) { return this.track= track;}
     public String toString() {
-        return super.toString() + String.format("%-25s %-10s %10s",
+        return super.toString() + String.format("Character: %-25s Kart: %-10s Track: %10s",
                 getCharacter(),
                 getKart(),
                 getTrack()

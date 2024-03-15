@@ -9,7 +9,7 @@ public class Warhammer extends physicalGame{
     public String getMinifigure() {return minifigure;}
     public String setMinifigure(String minifigure) { return this.minifigure=minifigure;}
     public String toString () {
-        return super.toString() + String.format("%-20s",
+        return super.toString() + String.format("MiniFigure: %-20s",
                 getMinifigure()
         );
     }

@@ -14,7 +14,7 @@ public class PoetryForNeanderthals extends physicalGame {
     public void setCard(String card) {this.card = card;}
 
     public String toString() {
-        return super.toString() + String.format("%-10s",
+        return super.toString() + String.format("Card: %-10s",
                 getCard()
         );
     }

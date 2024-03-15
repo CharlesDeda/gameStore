@@ -12,7 +12,7 @@ public class SushiGo extends physicalGame{
     public String getHand() {return hand;}
     public void setHand(String hand) { this.hand=hand;}
     public String toString() {
-        return super.toString() + String.format("%-7s",
+        return super.toString() + String.format("Hand: %-7s",
                 getHand()
         );
     }

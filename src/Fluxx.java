@@ -19,7 +19,7 @@ public class Fluxx extends physicalGame {
 
     // toString method
     public String toString() {
-        return super.toString() + String.format("%-10s",
+        return super.toString() + String.format("Version: %-10s",
                 getVersion());
     }
 }

@@ -8,7 +8,7 @@ public class Everdell extends physicalGame {
     private String getWorker() {return worker;}
     public void setWorker(String worker) {this.worker = worker;}
     public String toString() {
-        return super.toString() + String.format("%-10s",
+        return super.toString() + String.format("Worker: %-10s",
                 getWorker()
                 );
     }
